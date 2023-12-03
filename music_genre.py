@@ -6,7 +6,7 @@ import streamlit as st
 import pickle
 
 # Load the saved model
-model = load_model("C:\\Users\\adeij\\OneDrive\\Desktop\\Music Genre Classification\\audio_classification_19_02_04.hdf5")
+model = load_model("audio_classification_19_02_04.hdf5")
 
 # Define the Streamlit application
 st.title("Audio Genre Classification")
