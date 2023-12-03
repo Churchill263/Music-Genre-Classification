@@ -25,7 +25,7 @@ if uploaded_file is not None:
     mfccs_scaled_features = np.mean(mfccs_features.T, axis=0)
 
     # Predict genre
-    pred = model.predict(np.array([mfccs_scaled_features]))
+    pred = model.predict(np.expand_dims(mfccs_scaled_features, axis=0))
     predicted_class = encoder.inverse_transform(np.argmax(pred, axis=1))[0]
 
     # Display prediction
