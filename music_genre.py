@@ -8,7 +8,7 @@ import pickle
 # Load the saved model
 model = load_model("audio_classification_19_02_04.hdf5")
 
-with open("C:\\Users\\adeij\\Downloads\\encoder.pkl", "rb") as encoder_file:
+with open("encoder.pkl", "rb") as encoder_file:
     encoder = pickle.load(encoder_file)
 
 
