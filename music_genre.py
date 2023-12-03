@@ -26,7 +26,7 @@ if uploaded_file is not None:
 
     # Predict genre
     pred = model.predict(np.expand_dims(mfccs_scaled_features, axis=0))
-    predicted_class = encoder.inverse_transform(np.argmax(pred, axis=1))[0]
+    predicted_class = encoder["encoder"].inverse_transform(np.argmax(pred, axis=1))[0]
 
     # Display prediction
     st.write(f"Predicted Genre: {predicted_class}")
