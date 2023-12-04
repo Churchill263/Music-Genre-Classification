@@ -49,7 +49,7 @@ Special thanks to the authors of the libraries used in this project: NumPy, Pand
 Additional Notes
 Feel free to customize the project structure and adapt the code to your specific needs. If deploying the model as a web application, consider using frameworks like Streamlit or Flask. Ensure that you have the necessary permissions for the audio dataset and comply with any licensing restrictions associated with the data.
 
-Link to the Youtube Video:  https://youtu.be/95P3pHvxHDo
+Link to the Youtube Video:  https://youtu.be/2DAsiRWRKGQ
 
 
 
